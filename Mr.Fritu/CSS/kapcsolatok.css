@@ -1,0 +1,127 @@
+html > body {
+    background-color: #ede6dc;
+    font-family: Helvetica, sans-serif;
+    color: #89633e;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 99%;
+    font-size: 125%;
+}
+
+/*Navbar*/
+
+.wrapper {
+    margin: auto 250px auto 250px;
+}
+
+.logo {
+    width: 6%;
+    display: inline-block;
+}
+
+
+nav ul li {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.fas {
+    font-size: 130%;
+}
+
+a {
+    text-decoration: none!important;
+    color: #89633e!important;
+}
+
+
+/*--------------------------------------------------*/
+
+/*Content*/
+
+.container{
+    margin-top: 20px;
+}
+
+.paragraph{
+    margin-top: 25px;
+}
+
+.paragraph:last-child {
+    line-height: 200%;
+}
+
+.container img {
+    height: 400px;
+    width: 400px;
+}
+
+.fab {
+    font-size: 250%;
+}
+
+.fa-facebook-square {
+    margin-right: 40px;
+}
+
+iframe {
+    display: inline;
+    margin-right: 10px;
+}
+
+.secondMap, .thirdMap, .fourthMap{
+    display: none;
+}
+
+
+
+/*Media queries*/
+
+.buttonPosition {
+    margin-left: 10%;
+}
+
+
+@media screen and (max-width: 1200px){
+    .container img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .firstMap{
+        display: none;
+    }
+
+    .secondMap{
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: none;
+    }
+
+    nav ul li {
+        margin-right: 10%!important;
+    }
+    
+    .thirdMap {
+        display: inline;
+    }
+
+    .secondMap {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .fourthMap {
+        display: inline;
+    }
+
+    .thirdMap {
+        display: none;
+    }
+}

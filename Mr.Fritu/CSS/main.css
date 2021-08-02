@@ -1,0 +1,268 @@
+html > body {
+    background-color: #ede6dc;
+    font-family: Helvetica, sans-serif;
+    color: #89633e;
+    text-align: center;
+}
+
+/*Navbar*/
+
+.wrapper {
+    margin: auto 250px auto 250px;
+}
+
+.logo {
+    width: 6%;
+    display: inline-block;
+}
+
+
+nav ul li {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.fas {
+    font-size: 130%;
+}
+
+a {
+    text-decoration: none!important;
+    color: #89633e!important;
+}
+
+
+/*--------------------------------------------------*/
+
+
+
+/*SlideBar*/
+
+.slideContainer {
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    margin: auto;
+}
+
+.sideElementsContainer {
+    background-color: #ede6dc;
+    font-weight: bold;
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 9%;
+    padding-right: 20%;
+}
+ 
+.sideElementsContainer p {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 250%;
+}
+
+.sideElementsContainer button {
+    padding: 10px;
+    position: relative;
+    left: 25%;
+    top: 20px;
+    background-color: #e9303d;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    width: 170%;
+    border: 0;
+    border-radius: 5px;
+    font-size: 150%;
+}
+
+
+/*--------------------------------------------------*/
+
+
+/*Rólunk*/
+
+.about {
+    background-color: #cfb695;
+    margin-top: 40px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.about h1 {
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------------*/
+
+
+/*Ajánlat*/
+
+.recommend {
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: left;
+}
+
+.recommend img {
+    width: 55%;
+    height: 55%;
+    float: right;
+}
+
+/*--------------------------------------------------*/
+
+
+/*Lábléc*/
+
+footer {
+    clear: both;
+    background-color: #919191;
+    margin-top: 470px;
+    padding-top: 15px;
+}
+
+.fab {
+    font-size: 270%;
+}
+
+.fab:first-child{
+    margin-right: 100px;
+}
+
+/*--------------------------------------------------*/
+
+
+
+/*Media queries*/
+
+.buttonPosition {
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 1200px)  {
+
+    /*Kukuriqqq*/
+    .sideElementsContainer p {
+        font-size: 250%;
+        left: 7px;
+    }
+
+    /*Rendelés gomb*/
+    .sideElementsContainer button{
+        padding: 5px;
+        left: 7px;
+        font-size: 150%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: none;
+    }
+
+    /*Kukuriqqq*/
+    .sideElementsContainer p {
+        font-size: 220%;
+        left: 7px;
+    }
+
+    /*Rendelés gomb*/
+    .sideElementsContainer button{
+        padding: 5px;
+        left: 7px;
+        font-size: 150%;
+    }
+
+    nav ul li {
+        margin-right: 10%!important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /*Kukuriqqq*/
+    .sideElementsContainer p {
+        font-size: 170%;
+        text-align: center;
+    }
+
+    /*Rendelés gomb*/
+    .sideElementsContainer button{
+        padding: 5px;
+        left: 0;
+        font-size: 100%;
+    }
+
+    /*Lábléc*/
+    .recommend img{
+        float: none;
+        width: 70%;
+    }
+
+    footer {
+        clear: none;
+        margin-top: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 576px){
+
+     /*Kukuriqqq*/
+     .sideElementsContainer p {
+        font-size: 140%;
+        text-align: center;
+    }
+
+    /*Rendelés gomb*/
+    .sideElementsContainer button {
+        padding: 5px;
+        width: 150%;
+        font-size: 100%;
+        left: 0;
+    }
+
+    /*Lábléc*/
+    .recommend img{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 388px){
+
+    /*Kukuriqqq*/
+    .sideElementsContainer p {
+       font-size: 120%;
+       text-align: center;
+   }
+
+   /*Rendelés gomb*/
+   .sideElementsContainer button {
+       padding: 5px;
+       width: 150%;
+       font-size: 90%;
+       left: 0;
+   }
+
+   /*Lábléc*/
+   .recommend img{
+        width: 110%;
+}
+}
+
+/*--------------------------------------------------*/

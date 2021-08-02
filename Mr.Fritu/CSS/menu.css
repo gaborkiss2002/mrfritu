@@ -1,0 +1,165 @@
+html > body {
+  background-color: #ede6dc;
+  font-family: Helvetica, sans-serif;
+  color: #89633e;
+  text-align: center;
+}
+
+
+/*Navbar*/
+
+.wrapper {
+  margin: auto 250px auto 250px;
+}
+
+.logo {
+  width: 6%;
+  display: inline-block;
+}
+
+
+nav ul li {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.fas {
+  font-size: 130%;
+}
+
+a {
+  text-decoration: none!important;
+  color: #89633e!important;
+}
+
+
+/*--------------------------------------------------*/
+
+/*Accordion*/
+
+.wrapperAccordion {
+  margin: auto 150px 0;
+}
+
+.accordion button {
+  height: 150px;
+}
+
+/*Háttérképek*/
+
+.backgroundOne {
+  background-image: url("javitott4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.backgroundTwo {
+  background-image: url("DSC00492.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Bootstrap felülírás*/
+.accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #89633e;
+}
+
+.accordion-item {
+  border-radius: 0rem;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.accordion-button {
+  border-radius: 0rem;
+  color: #89633e;
+  font-size: 30px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*Border*/
+.accordion .row {
+  border: 0.5px;
+  border-style: solid;
+  background-color: #ffffff;
+}
+
+.accordion .row:not(:last-child) {
+  border-bottom: 0;
+}
+
+.accordion .row p {
+  margin: 8px auto 8px;
+}
+
+.accordion-body {
+  padding: 0;
+}
+
+.accordion .col-9 {
+  text-align: left;
+  padding-left: 100px;
+  margin-bottom: 0;
+}
+
+.accordion .col-3 {
+  text-align: right;
+  padding-right: 100px;
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------*/
+
+/*Lábléc*/
+
+footer {
+  clear: both;
+  background-color: #919191;
+  margin-top: 50px;
+  padding-top: 15px;
+}
+
+.fab {
+  font-size: 270%;
+}
+
+.fab:first-child {
+  margin-right: 100px;
+}
+
+/*--------------------------------------------------*/
+
+
+/*Media queries*/
+
+.buttonPosition {
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 992px) {
+  .logo {
+      display: none;
+  }
+
+  nav ul li {
+    margin-right: 10%!important;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .accordion button {
+    /* min-width: 500px;  */ 
+  }
+}
